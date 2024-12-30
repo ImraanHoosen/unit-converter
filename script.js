@@ -23,9 +23,9 @@ convertBtn.addEventListener("click", function () {
   // Convert the input value from meters to feet and display the result
   lengthEl.textContent = `${baseValue} meter = ${(
     baseValue * meterToFeet
-  ).toFixed(3)} feet | ${baseValue} feet = ${(baseValue * feetToMeter).toFixed(
-    3
-  )} meters`;
+  ).toFixed(3)} feet | ${baseValue} feet = ${(
+    baseValue * feetToMeter
+  ).toFixed()} meters`;
 
   // Convert the input value from liters to gallons and display the result
   volumeEl.textContent = `${baseValue} liters = ${(
